@@ -15691,7 +15691,7 @@ exports = module.exports = __webpack_require__(119)(undefined);
 
 
 // module
-exports.push([module.i, "@font-face {\n    font-family: 'pockc';\n    src: url('/dist/fonts/POCKC___.ttf');\n}\n\n.row {\n    display: flex;\n}\n\n.label {\n    flex-basis: 200px;\n}\n\n.data {\n    font-family: 'pockc';\n    font-size: 88px;\n    flex-grow: 2;\n}", ""]);
+exports.push([module.i, "@font-face {\n    font-family: 'pockc';\n    src: url(" + __webpack_require__(120) + ");\n}\n\n.row {\n    display: flex;\n}\n\n.label {\n    flex-basis: 200px;\n}\n\n.data {\n    font-family: 'pockc';\n    font-size: 88px;\n    flex-grow: 2;\n}", ""]);
 
 // exports
 
@@ -15779,7 +15779,12 @@ function toComment(sourceMap) {
 
 
 /***/ }),
-/* 120 */,
+/* 120 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "./dist/fonts/POCKC___.ttf";
+
+/***/ }),
 /* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
