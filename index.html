@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hello GGA</title>
+  </head>
+  <body>
+    <div id="date">
+      <div class="row">
+        <span class="label">現在日付:</span> <span class="data">{{now_date}}</span>
+      </div>
+      <div class="row">
+        <span class="label">GGA 提出締切： </span> <span class="data">{{gga_submission_remain_days * -1}} </span>
+      </div>
+      <div class="row">
+        <span class="label">GGA 発表： </span> <span class="data">{{gga_presentaion_remain_days * -1}} </span>
+      </div>
+    </div>
+    <script src="dist/bundle.js"></script>
+  </body>
+</html>
